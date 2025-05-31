@@ -1,5 +1,5 @@
 import { PaginatedData } from "../../types/type";
-import { Product, ProductDTO } from "../../types/user";
+import { ItemsReport, Product, ProductDTO } from "../../types/user";
 
 
 export default interface IProductService {
