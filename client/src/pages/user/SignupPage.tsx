@@ -44,7 +44,7 @@ const SignupPage: React.FC = () => {
   // Check if user is already logged in on component mount
   React.useEffect(() => {
     if (user && accessToken) {
-      navigate('/inventory', { replace: true });
+      navigate('/', { replace: true });
     }
   }, [user, accessToken, navigate]);
 
@@ -73,7 +73,7 @@ const SignupPage: React.FC = () => {
       );
       reset();
       toast.success(result.message);
-      navigate('/inventory', { replace: true });
+      navigate('/', { replace: true });
     } catch (error: any) {
       toast.error(error.message || 'Failed to create account');
     } finally {

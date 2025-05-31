@@ -34,7 +34,7 @@ const LoginPage: React.FC = () => {
   // Check if user is already logged in on component mount
   useEffect(() => {
     if (user && accessToken) {
-      navigate('/inventory', { replace: true });
+      navigate('/', { replace: true });
     }
   }, [user, accessToken, navigate]);
 
@@ -61,7 +61,7 @@ const LoginPage: React.FC = () => {
       }));
       toast.success('Login successful!');
       reset();
-      navigate('/inventory', { replace: true });
+      navigate('/', { replace: true });
     } catch (error: any) {
       toast.error(error.message);
     } finally {
