@@ -46,7 +46,7 @@ const Navbar: React.FC = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <div className="flex space-x-6">
-              <button onClick={() => navigate("/inventory")} className="text-gray-300 hover:text-red-400 transition-colors cursor-pointer">
+              <button onClick={() => navigate("/")} className="text-gray-300 hover:text-red-400 transition-colors cursor-pointer">
                 Inventory
               </button>
               <button onClick={() => navigate("/customer")} className="text-gray-300 hover:text-red-400 transition-colors cursor-pointer">
