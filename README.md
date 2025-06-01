@@ -2,6 +2,10 @@
 
 A full-stack inventory management web app built with the **MERN stack (MongoDB, Express.js, React, Node.js)**. It allows users to manage inventory, customers, sales, and view reports with export functionality.
 
+## Deployed Application
+
+[https://inventorypro.zapto.org/](https://inventorypro.zapto.org/)
+
 ## Features
 
 - User login authentication
