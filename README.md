@@ -33,7 +33,7 @@ cd backend
 npm install
 ```
 
-#### Create and edit the .env file at the root directory ofthe backend and add your environment variables:
+#### Create a .env file in the backend/ directory and add your environment variables:
 
 ```ini
 PORT=5000
@@ -56,7 +56,7 @@ cd ../frontend
 npm install
 ```
 
-#### Create and edit the .env file at the root directory of the frontend and add your environment variables:
+#### Create a .env file in the frontend/ directory and add your environment variable:
 
 ```ini
 VITE_API_BASE_URL=http://localhost:5001/api
@@ -67,6 +67,8 @@ VITE_API_BASE_URL=http://localhost:5001/api
 ```bash
 npm run dev
 ```
+
+- Frontend will run at http://localhost:5173
 
 ### 4. Prerequisites
 
