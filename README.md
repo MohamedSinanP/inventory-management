@@ -40,7 +40,7 @@ npm install
 #### Create a .env file in the backend/ directory and add your environment variables:
 
 ```ini
-PORT=5000
+PORT=5001
 MONGO_URI=your-mongodb-uri
 JWT_SECRET=your_jwt_secret
 EMAIL_USER=your_email@example.com
